@@ -1,0 +1,12 @@
+<div>
+    <h1>Ahora si pinche perro vamos aprender japones:v</h1>
+    <p>bla bla bla</p>
+    <div class="button-container">
+        <!-- (click)="goTo('/hiragana')" -->
+        <button class="btn btn-primary" routerLink="/hiragana" routerLinkActive="active" >Hiragana</button>
+        <button class="btn btn-primary" (click)="goTo('/katakana')">Katakana</button>
+        <button class="btn btn-primary" (click)="goTo('/kanji')">Kanji</button>
+        <button class="btn btn-primary" (click)="goTo('/counters')">Contadores</button>
+        <button class="btn btn-primary" (click)="goTo('/words')">Palabras</button>
+    </div>
+</div>
